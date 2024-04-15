@@ -2,15 +2,15 @@
 Este programa en JavaScript permite a los usuarios crear encuestas, votar y ver los resultados en tiempo real. Proporciona una interfaz simple donde los usuarios pueden crear preguntas junto con sus opciones de respuesta, votar en esas preguntas y ver los resultados de la encuesta.
 
 ##**Funcionalidades**
-Crear Encuestas: Los usuarios pueden crear encuestas con un máximo de 8 preguntas, cada una con múltiples opciones de respuesta.
+###Crear Encuestas: Los usuarios pueden crear encuestas con un máximo de 8 preguntas, cada una con múltiples opciones de respuesta.
 
-Votar: Los usuarios pueden seleccionar una opción de respuesta para cada pregunta y luego votar en la encuesta.
+###Votar: Los usuarios pueden seleccionar una opción de respuesta para cada pregunta y luego votar en la encuesta.
 
-Mostrar Resultados: Después de que los usuarios votan, se muestran los resultados de la encuesta en tiempo real, mostrando el número total de votos y el porcentaje de votos para cada opción de respuesta.
+###Mostrar Resultados: Después de que los usuarios votan, se muestran los resultados de la encuesta en tiempo real, mostrando el número total de votos y el porcentaje de votos para cada opción de respuesta.
 
-Enfoque de la Implementación
-Programación Orientada a Objetos (POO)
-Clase Encuesta: Se crea una clase Encuesta que representa una encuesta. Esta clase tiene propiedades para almacenar las preguntas y sus opciones de respuesta, así como los resultados de la votación.
+##**Enfoque de la Implementación**
+###Programación Orientada a Objetos (POO)
+###Clase Encuesta: Se crea una clase Encuesta que representa una encuesta. Esta clase tiene propiedades para almacenar las preguntas y sus opciones de respuesta, así como los resultados de la votación.
 
 ##**Métodos de la Clase Encuesta:**
 
@@ -32,18 +32,18 @@ Interacción con el DOM: Se utilizan funciones en JavaScript para interactuar co
 ###POO: Proporciona una estructura clara y modular a través de clases y objetos, lo que facilita la organización y el mantenimiento del código. Es útil para programas con estructuras de datos complejas y relaciones entre objetos.
 
 ###PF: Promueve la claridad y la simplicidad a través de funciones puras y composición de funciones. Es útil para programas que se centran en la transformación de datos y la ejecución de operaciones sobre ellos, sin preocuparse por el estado mutable.
-Composición de Funciones: Se utilizan funciones simples y bien definidas que se componen para realizar tareas más complejas, como la creación de la encuesta y la visualización de los resultados.
+###Composición de Funciones: Se utilizan funciones simples y bien definidas que se componen para realizar tareas más complejas, como la creación de la encuesta y la visualización de los resultados.
 
-No hay Estado Mutante: Se evita el uso de variables mutables y se prefieren las estructuras de datos inmutables, lo que facilita la comprensión y el mantenimiento del código.
+###No hay Estado Mutante: Se evita el uso de variables mutables y se prefieren las estructuras de datos inmutables, lo que facilita la comprensión y el mantenimiento del código.
 
 Por qué este Enfoque
 Claridad y Mantenibilidad: Tanto la Programación Orientada a Objetos como la Programación Funcional proporcionan estructuras claras y modularidad, lo que facilita la comprensión y el mantenimiento del código a medida que el programa crece en complejidad.
 
-Flexibilidad: Estos enfoques permiten adaptarse fácilmente a cambios en los requisitos o a nuevas funcionalidades sin afectar otras partes del código.
+###Flexibilidad: Estos enfoques permiten adaptarse fácilmente a cambios en los requisitos o a nuevas funcionalidades sin afectar otras partes del código.
 
-Legibilidad: La separación de la lógica de la aplicación en clases o funciones bien definidas mejora la legibilidad del código y facilita la colaboración entre desarrolladores.
+###Legibilidad: La separación de la lógica de la aplicación en clases o funciones bien definidas mejora la legibilidad del código y facilita la colaboración entre desarrolladores.
 
-Instrucciones de Ejecución
+##Instrucciones de Ejecución
 Clona este repositorio en tu máquina local.
 Abre el archivo index.html en tu navegador web.
 Sigue las instrucciones en la página para crear encuestas, votar y ver los resultados.
